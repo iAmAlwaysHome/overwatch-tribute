@@ -1,0 +1,2452 @@
+@import url(//fonts.googleapis.com/css?family=Noto+Sans:400,700|Open+Sans:400,300,600,700);
+html{
+    font-family:sans-serif;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%
+}
+body{
+    margin:0
+}
+section{
+    display:block
+}
+video{
+    display:inline-block;
+    vertical-align:baseline
+}
+a{
+    background-color:transparent
+}
+a:hover{
+    outline:0
+}
+h1{
+    font-size:2em;
+    margin:.67em 0
+}
+img{
+    border:0
+}
+button{
+    color:inherit;
+    font:inherit;
+    margin:0;
+    overflow:visible;
+    text-transform:none;
+    cursor:pointer
+}
+.row{
+    max-width:none;
+    margin-left:auto;
+    margin-right:auto
+}
+.row:after,.row:before{
+    content:' ';
+    display:table;
+    -ms-flex-preferred-size:0;
+    flex-basis:0;
+    -webkit-box-ordinal-group:2;
+    -ms-flex-order:1;
+    order:1
+}
+.row:after{
+    clear:both
+}
+.column{
+    width:100%;
+    float:left;
+    padding-left:1.2rem;
+    padding-right:1.2rem
+}
+@media screen and (min-width:62em){
+    .column{
+        padding-left:2.2rem;
+        padding-right:2.2rem
+    }
+}
+.column:last-child:not(:first-child){
+    float:right
+}
+.column.row.row{
+    float:none
+}
+.xs-12{
+    width:100%
+}
+@media screen and (min-width:62em){
+    .lg-6{
+        width:50%
+    }
+    .lg-offset-6{
+        margin-left:50%
+    }
+}
+@media screen and (min-width:81.25em){
+    .xl-5{
+        width:41.66667%
+    }
+    .xl-offset-6{
+        margin-left:50%
+    }
+}
+div,h1,h2,li,p,ul{
+    margin:0;
+    padding:0
+}
+p{
+    font-size:inherit;
+    line-height:1.6;
+    margin-bottom:1rem;
+    text-rendering:optimizeLegibility
+}
+h1,h2{
+    font-family:Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight:400;
+    font-style:normal;
+    color:inherit;
+    text-rendering:optimizeLegibility;
+    margin-top:0;
+    margin-bottom:.5rem;
+    line-height:1.4
+}
+h1{
+    font-size:2.4rem;
+    margin-top:40px!important
+}
+h2{
+    font-size:2rem
+}
+h1{
+    font-size:4.8rem
+}
+h2{
+    font-size:4rem
+}
+a img{
+    border:0
+}
+ul{
+    line-height:1.6;
+    margin-bottom:1rem;
+    list-style-position:outside
+}
+li{
+    font-size:inherit
+}
+ul{
+    list-style-type:disc
+}
+ul{
+    margin-left:1.25rem
+}
+@media screen and (min-width:62em){
+    .hide-for-lg{
+        display:none!important
+    }
+}
+@media screen and (max-width:61.9375em){
+    .show-for-lg{
+        display:none!important
+    }
+}
+*,:after,:before{
+    box-sizing:inherit;
+    background-repeat:no-repeat;
+    vertical-align:inherit;
+    white-space:inherit;
+    text-overflow:inherit;
+    text-shadow:inherit
+}
+html{
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display:block;
+    box-sizing:border-box;
+    font-size:10px
+}
+body{
+    color:#405275;
+    padding:0;
+    margin:0;
+    width:100%;
+    height:100%;
+    display:block;
+    background-color:#f0edf2;
+    max-width:100%;
+    overflow-x:hidden;
+    font:normal normal normal 10px Arial,sans-serif;
+    font-size:1.5rem;
+    line-height:1.4
+}
+@media only screen and (min-width:400px){
+    body{
+        font-size:1.6rem;
+        line-height:1.5
+    }
+}
+@media screen and (min-width:2560px){
+    body{
+        max-width:2560px;
+        margin-left:auto;
+        margin-right:auto
+    }
+}
+h1,h2{
+    margin:0;
+    display:block;
+    text-transform:uppercase;
+    white-space:normal
+}
+h1{
+    font:italic normal normal 10px Big Noodle Too,impact,sans-serif;
+    font-size:5.6rem;
+    line-height:normal;
+    letter-spacing:.05rem
+}
+@media only screen and (min-width:400px){
+    h1{
+        font-size:8rem
+    }
+}
+@media only screen and (min-width:1300px){
+    h1{
+        font-size:10rem
+    }
+}
+h2{
+    font:italic normal normal 10px Big Noodle Too,impact,sans-serif;
+    font-size:4.8rem;
+    line-height:normal;
+    letter-spacing:.08rem
+}
+@media only screen and (min-width:400px){
+    h2{
+        font-size:5.6rem
+    }
+}
+@media only screen and (min-width:1300px){
+    h2{
+        font-size:7.2rem
+    }
+}
+.intro-text{
+    font:normal normal normal 10px Futura,century gothic,arial,sans-serif;
+    font-size:2rem;
+    line-height:normal
+}
+@media only screen and (min-width:400px){
+    .intro-text{
+        font-size:2.4rem
+    }
+}
+@media only screen and (min-width:1300px){
+    .intro-text{
+        font-size:2.8rem
+    }
+}
+.media-thumbnail>.caption{
+    font:normal normal normal 10px Futura,century gothic,arial,sans-serif;
+    font-size:1.6rem;
+    line-height:normal;
+    letter-spacing:.5px
+}
+@media only screen and (min-width:400px){
+    .media-thumbnail>.caption{
+        font-size:1.8rem
+    }
+}
+p{
+    margin-bottom:0;
+    white-space:normal
+}
+a,span{
+    white-space:normal
+}
+a{
+    color:#f7931e
+}
+a:hover{
+    color:#f9ab4f
+}
+ul{
+    list-style:none;
+    padding:0;
+    margin:0
+}
+button{
+    white-space:normal
+}
+@font-face{
+    font-family:Futura;
+    src:url(https://overwatch-a.akamaihd.net/fonts/FuturaNo2D-DemiBold-98f2fdd61b56a515bb9b6e74e00a71a3d5f83cfa5a3333b17b2576f3ef282cc29b29c8bb3a885d763627b7ce12db1c5060bfcbe80b60ee98855d59ee816f6e5c.eot);
+    src:url(https://overwatch-a.akamaihd.net/fonts/FuturaNo2D-DemiBold.eot?#iefix) format("embedded-opentype"),url(https://overwatch-a.akamaihd.net/fonts/FuturaNo2D-DemiBold-6109ce4d3e61ce549556924258e8a3bb9a17599f0532c63395e23571d9135963193d465262e32ef89a31f0247dff22c3f46b0f5bd5b3259222d1f55b3b496ac0.woff) format("woff"),url(https://overwatch-a.akamaihd.net/fonts/FuturaNo2D-DemiBold-3b3b5cb31e2bb1363260b80b7bcfd671618b11ace6c1192bc678abe9ba7199f93e56ca327d660fd1aa5987cb32bc1cf16dd2fc63c20c4504263d13672540c32a.ttf) format("truetype"),url(https://overwatch-a.akamaihd.net/fonts/FuturaNo2D-DemiBold.svg#futura) format("svg");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:Big Noodle Too;
+    src:url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too-6c57d058d1979cbf30e5b5b02638ef0d835f2c29502e0efa328ff91f75e8412a9c82fbf440b896377ed62506d1787666f67f81b99ef004a230c6fcf084b7a3fa.eot);
+    src:url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too.eot?#iefix) format("embedded-opentype"),url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too-eaef42cc66ce3dcbe29cd88eca8801d55fe8dcc11c7153cc9c3f3418084ef1c50b1b7e270c826ded2d868a825af5c5b9d9be69d25795aae62c721c64faef1a95.woff) format("woff"),url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too-6fb923dc5ced5be50c4912cfefa93d8b09a54f1947dc5ca4584c79dfd393cdd4b166d0e8c7dee293f0df2f84c878b7846a83770941504b1b24671c2854577ce9.ttf) format("truetype"),url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too.svg#bignoodletoo) format("svg");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:Big Noodle Too;
+    src:url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too-oblique-903d64d3da120253768ac916e2de43cffcc73b4bfe48f8c0a2389951aefee08ebb0efe2463c0d6e4ee1c705fbe0a9b28d78e48a7b52451771c0cec872381873d.eot);
+    src:url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too-oblique.eot?#iefix) format("embedded-opentype"),url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too-oblique-0762bcfb7ce452ecfa21830ab40ee34f9bf2e6fbcecb649c8995bd59fdf93a74a8345855c3890ec3901ac7ca442040112f37f387c98a57ced5af61d92ee8e06c.woff) format("woff"),url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too-oblique-feb40854f431c46dcc2dd7bf2e4064bfd0617105de546a2415208b9ac38816d19a25a3631d3a88575e1c7a513d14f56defd342c3354f5d65f5ad1aef16c59402.ttf) format("truetype"),url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too-oblique.svg#bignoodletoo) format("svg");
+    font-weight:400;
+    font-style:italic
+}
+@font-face{
+    font-family:Koverwatch;
+    src:url(https://overwatch-a.akamaihd.net/fonts/koverwatch-webfont-0e42905f23f627f8d9e300237c2017061dd3e8de0e1cffaecd1782638ca9722d4f15c403ab005beaad001d3c61244538f79fbd73ea08a0a6214d16c34e0010e9.eot);
+    src:url(https://overwatch-a.akamaihd.net/fonts/koverwatch-webfont.eot?#iefix) format("embedded-opentype"),url(https://overwatch-a.akamaihd.net/fonts/koverwatch-webfont-3d911fd6af57ecd106b85bccbcdb661abb3edccc7f7f31ce8667fcf15a20920a4a2ea5dd15b0c2c7922c2edb566fd9c961700dba56baa8557002a863f6d0e090.woff) format("woff"),url(https://overwatch-a.akamaihd.net/fonts/koverwatch-webfont.svg#koverwatch) format("svg");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:BlackFit77;
+    src:url(https://overwatch-a.akamaihd.net/fonts/yoonblackfit77-webfont-faa407a101f2ac97acbbc164056cbf56af8b8c84b056a201433695a94ad6a6a81dfa92ae7b651768391b1fc10d057f5b615d34df7101a7a50ab8d4b359ae0b32.eot);
+    src:url(https://overwatch-a.akamaihd.net/fonts/yoonblackfit77-webfont.eot?#iefix) format("embedded-opentype"),url(https://overwatch-a.akamaihd.net/fonts/yoonblackfit77-webfont-e22667373903cb18a3736cb44df54cd50ffe9c2c83db3a31691a30d8d9b6d06162852bf412dbd0b35356d8a005d63949829ad43e762a384df6898d7dd97aeb75.woff) format("woff"),url(https://overwatch-a.akamaihd.net/fonts/yoonblackfit77-webfont.svg#yoonblackfit77) format("svg");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:Noto Sans;
+    src:url(https://overwatch-a.akamaihd.net/fonts/noto-sans-korean-bold-230da63ce3cb94f1ec2215f695cda3be1156c15177368c14e4d40859453e2bf0beb5723c7e1a530ac4d57dc5c1b49e5b592f12f072dcde2358cb68043306e759.eot);
+    src:url(https://overwatch-a.akamaihd.net/fonts/noto-sans-korean-bold.eot?#iefix) format("embedded-opentype"),url(https://overwatch-a.akamaihd.net/fonts/noto-sans-korean-bold-041988f0ecdbb7325729850d2f4a09600681aad127be55b30dc6002d190ad25fd3a57a2a07fe70c1108702ba0f6abfde54b37de8c4261c9958e688a499fda1dc.woff) format("woff"),url(https://overwatch-a.akamaihd.net/fonts/noto-sans-korean-bold.svg#notosansbold) format("svg");
+    font-weight:700;
+    font-style:normal
+}
+@font-face{
+    font-family:Noto Sans;
+    src:url(https://overwatch-a.akamaihd.net/fonts/noto-sans-korean-light-7c99593fc16b1da69632ee87e3a7bb51f04e8e30d1ae5809684a7143299e29fcacf67414306955f97ecadb124a5a903f5f15adbc4a55c51012867d39e7f1ef65.eot);
+    src:url(https://overwatch-a.akamaihd.net/fonts/noto-sans-korean-light.eot?#iefix) format("embedded-opentype"),url(https://overwatch-a.akamaihd.net/fonts/noto-sans-korean-light-f7292838a93e0169a631790a62b89f5387292a8c31a9a8f79f8b679de9eea7d4a174d74231c817a9f4dceaa4f2bb7b355e9206a06abd6fb724a7e4f656d93db2.woff) format("woff"),url(https://overwatch-a.akamaihd.net/fonts/noto-sans-korean-light.svg#notosanslight) format("svg");
+    font-weight:300;
+    font-style:normal
+}
+.clearfix:after{
+    content:"";
+    display:block;
+    clear:both
+}
+section.outter{
+    display:block;
+    width:100%;
+    max-width:100%
+}
+section>.inner{
+    width:100%;
+    max-width:1250px;
+    padding:0 15px;
+    margin:0 auto
+}
+section>.inner:after{
+    content:'';
+    display:block;
+    height:0;
+    clear:both
+}
+@media only screen and (min-width:768px){
+    section>.inner{
+        padding:0 30px
+    }
+}
+.page-wrapper{
+    margin-left:auto;
+    margin-right:auto
+}
+@media only screen and (min-width:992px){
+    .page-wrapper{
+        max-width:960px
+    }
+}
+@media (min-width:1100px){
+    .page-wrapper{
+        max-width:1050px
+    }
+}
+@media only screen and (min-width:1300px){
+    .page-wrapper{
+        max-width:1280px
+    }
+}
+@media only screen and (min-width:1600px){
+    .page-wrapper{
+        max-width:1600px
+    }
+}
+h2+p{
+    margin-top:.5em
+}
+.button,button{
+    display:inline-block;
+    text-align:center;
+    cursor:pointer;
+    appearance:none;
+    vertical-align:middle;
+    border-radius:2px;
+    padding:6px 45px;
+    text-transform:uppercase;
+    border:none;
+    outline:0;
+    border:3px solid #ff9c00;
+    background-color:#ff9c00;
+    color:#333;
+    line-height:1;
+    letter-spacing:.025em;
+    font-family:Futura,century gothic,arial,sans-serif;
+    font-weight:700;
+    font-size:1.6rem;
+    -webkit-transition:all .2s;
+    transition:all .2s;
+    text-shadow:none
+}
+.button:hover,button:hover{
+    border-color:#ffb033;
+    background-color:#ffb033;
+    -webkit-transition:none;
+    transition:none
+}
+.button.m-lg,button.m-lg{
+    font-size:2.6rem;
+    padding:6.5px 32px;
+    color:#fefefe
+}
+@media only screen and (min-width:992px){
+    .button.m-lg,button.m-lg{
+        font-size:3.2rem;
+        padding:9px 40px
+    }
+}
+@media only screen and (max-width:399px){
+    .button,.button.m-lg,button,button.m-lg{
+        width:100%;
+        padding-left:0;
+        padding-right:0
+    }
+}
+.content-box{
+    padding-top:44px;
+    padding-bottom:44px
+}
+@media only screen and (min-width:992px){
+    .content-box{
+        padding-top:80px;
+        padding-bottom:80px
+    }
+}
+.section-divider{
+    position:relative
+}
+.section-divider:after,.section-divider:before{
+    content:'';
+    position:absolute;
+    left:0;
+    right:0;
+    background-size:auto 100%;
+    background-position:top;
+    background-repeat:no-repeat
+}
+.section-divider:before{
+    bottom:100%
+}
+.section-divider:after{
+    top:100%
+}
+.section-divider.m-top-only:after{
+    content:none
+}
+.section-divider.m-line:after,.section-divider.m-line:before{
+    height:.35rem;
+    border:.35rem solid hsla(0,0%,45%,.7)
+}
+.section-divider.m-inset:before{
+    top:0;
+    bottom:auto;
+    -webkit-transform:scaleY(-1);
+    transform:scaleY(-1)
+}
+.section-divider.m-inset:after{
+    bottom:0;
+    top:auto;
+    -webkit-transform:scaleX(1);
+    transform:scaleX(1)
+}
+.hero-portrait{
+    position:relative;
+    display:inline-block;
+    padding-bottom:2rem;
+    -webkit-transition:all .1s cubic-bezier(.19,1,.22,1);
+    transition:all .1s cubic-bezier(.19,1,.22,1)
+}
+.hero-portrait:hover{
+    -webkit-transition:all .11s cubic-bezier(.075,.82,.165,1);
+    transition:all .11s cubic-bezier(.075,.82,.165,1)
+}
+.hero-portrait>.wrap{
+    display:inline-block;
+    position:relative;
+    overflow:hidden;
+    width:8rem;
+    height:8rem;
+    background-color:#fff;
+    -webkit-transition:all .1s cubic-bezier(.19,1,.22,1);
+    transition:all .1s cubic-bezier(.19,1,.22,1);
+    border-radius:7px;
+    border:3px solid #f0edf2;
+    border-left-width:0;
+    border-right-width:0
+}
+@media only screen and (min-width:768px){
+    .hero-portrait>.wrap{
+        background-color:transparent;
+        -webkit-transform:skew(-.25rad);
+        -ms-transform:skew(-.25rad);
+        transform:skew(-.25rad);
+        width:7rem;
+        height:8.5rem
+    }
+}
+.hero-portrait:hover>.wrap{
+    -webkit-transform:scale(1.2) translateZ(0);
+    transform:scale(1.2) translateZ(0);
+    -webkit-transform-origin:center;
+    -ms-transform-origin:center;
+    transform-origin:center;
+    z-index:0;
+    -webkit-transition:all .11s cubic-bezier(.075,.82,.165,1);
+    transition:all .11s cubic-bezier(.075,.82,.165,1);
+    border-left-width:3px;
+    border-right-width:3px
+}
+@media only screen and (min-width:768px){
+    .hero-portrait:hover>.wrap{
+        -webkit-transform:scale(1.2) skew(-.25rad) translateZ(0);
+        transform:scale(1.2) skew(-.25rad) translateZ(0)
+    }
+}
+.hero-portrait>.wrap>.image{
+    position:absolute;
+    left:50%;
+    height:96%;
+    top:2%;
+    padding-right:200%;
+    -webkit-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    transform:translateX(-50%);
+    background-position:50%;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-color:rgba(51,51,51,.9);
+    -webkit-transition:inherit;
+    transition:inherit
+}
+@media only screen and (min-width:768px){
+    .hero-portrait>.wrap>.image{
+        top:0;
+        height:100%;
+        -webkit-transform:skew(.25rad) translateX(-50%);
+        -ms-transform:skew(.25rad) translateX(-50%);
+        transform:skew(.25rad) translateX(-50%)
+    }
+}
+.hero-portrait:hover>.wrap>.image{
+    background-color:#f7931e
+}
+.hero-portrait>.label{
+    position:absolute;
+    bottom:.3rem;
+    display:block;
+    width:100%;
+    font-size:1.2rem;
+    font-family:Futura,century gothic,arial,sans-serif;
+    text-transform:uppercase;
+    color:#333;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -webkit-transition:none;
+    transition:none
+}
+@media only screen and (min-width:768px){
+    .hero-portrait>.label{
+        bottom:.5rem;
+        font-size:1rem;
+        -webkit-transform:translateX(-1.05rem);
+        -ms-transform:translateX(-1.05rem);
+        transform:translateX(-1.05rem)
+    }
+}
+.hero-portrait:hover>.label{
+    left:50%;
+    width:auto;
+    padding:.1rem 1rem;
+    z-index:0;
+    border-radius:.3rem;
+    background-color:#f0edf2;
+    white-space:nowrap;
+    overflow:visible;
+    text-overflow:inherit;
+    -webkit-transform:translateX(-50%) translateY(-.5rem);
+    -ms-transform:translateX(-50%) translateY(-.5rem);
+    transform:translateX(-50%) translateY(-.5rem)
+}
+@media only screen and (min-width:768px){
+    .hero-portrait:hover>.label{
+        -webkit-transform:translateX(-50%) translateX(-1.25rem) translateY(-.5rem);
+        -ms-transform:translateX(-50%) translateX(-1.25rem) translateY(-.5rem);
+        transform:translateX(-50%) translateX(-1.25rem) translateY(-.5rem)
+    }
+}
+.intro-text{
+    line-height:1.47;
+    margin-bottom:3.6rem
+}
+.intro-trailer{
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    margin-top:18px
+}
+@media only screen and (min-width:400px){
+    .intro-trailer{
+        margin-top:60px
+    }
+}
+.intro-heading{
+    margin-bottom:44px;
+    text-transform:uppercase;
+    font-style:italic
+}
+.intro-heading-gradient-blue{
+    background:-webkit-linear-gradient(top,#3f6493 10%,#345177);
+    background-image:-o-linear-gradient(transparent,transparent);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    text-shadow:0 4px 5px rgba(60,72,96,.5)
+}
+.intro-heading-gradient-gray{
+    background:-webkit-linear-gradient(top,#b5b9bf 10%,#bbbdbf);
+    background-image:-o-linear-gradient(transparent,transparent);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    text-shadow:0 4px 5px rgba(248,249,249,.5)
+}
+.logo{
+    width:190px;
+    height:143px;
+    background-image:url(https://overwatch-a.akamaihd.net/img/overwatch-logo-mobile-8008957e80296921744e7b6a98e068deb0a9eae4c0573782c108b0778472eebd0ced9ccf81ce364936c4adb5ad871b43bc6e2fad9cc1d39aec5c431085b76648.png);
+    background-size:contain
+}
+@media only screen and (min-width:768px){
+    .logo{
+        width:794px;
+        height:452px;
+        background-image:url(https://overwatch-a.akamaihd.net/img/overwatch-logo-69875dfcf61f21d1b4abf13954b249263b1e8521082e21386b048a2e95f0d680e85d074919792a5cbb0b97b5288f393424e452b98f6f6e58d1b1fcd5c5cc1feb.png);
+        background-size:contain
+    }
+}
+.media-thumbnail{
+    display:block;
+    text-decoration:none
+}
+.media-thumbnail:hover{
+    border-width:4px;
+    border-color:#fff
+}
+.media-thumbnail>.caption{
+    display:block;
+    color:rgba(240,237,242,.8);
+    background-color:#333;
+    text-transform:uppercase;
+    padding:.7rem 1.6rem;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px
+}
+.media-thumbnail:hover>.caption{
+    color:#f0edf2
+}
+.media-thumbnail>.wrap{
+    position:relative;
+    overflow:hidden
+}
+.media-thumbnail>.wrap:before{
+    content:'';
+    display:block;
+    height:0;
+    padding-top:56.25%
+}
+.media-thumbnail.m-playable>.wrap:after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    -webkit-transition:all .2s cubic-bezier(.25,.46,.45,.94);
+    transition:all .2s cubic-bezier(.25,.46,.45,.94);
+    background-position:50%;
+    background-repeat:no-repeat;
+    background-size:13% auto
+}
+.media-thumbnail.m-playable>.wrap:after{
+    background-image:url(https://overwatch-a.akamaihd.net/img/icons/youtube-btn-ylw-3b7a39de394045b70e2a6c5ddb0bbf453cdcc761146353357386041d760ef9b5de42fde1f553b604a190751bf7483feca4499bc9626d7495ca451f0c4d721698.png)
+}
+.media-thumbnail.m-playable:hover>.wrap:after{
+    background-image:url(https://overwatch-a.akamaihd.net/img/icons/youtube-btn-wh-cc89ad76a714abd9456953b9fdfe7c054ad74c7c65841b0e157963c9e7de03e36cdd72299e75092be33ce9dc4b5ec45cf5afc98e4375e36c08d038141a9c8f93.png)
+}
+.media-thumbnail.m-playable:hover>.wrap:after{
+    background-color:rgba(51,51,51,.5)
+}
+.media-thumbnail>.wrap>.media{
+    position:absolute;
+    width:100%;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    border-top-left-radius:3px;
+    border-top-right-radius:3px
+}
+.spotlight>.header{
+    color:#f0edf2
+}
+.spotlight>.holder{
+    display:block;
+    padding-top:87.5%;
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-position:bottom
+}
+.spotlight>.caption{
+    min-height:7em
+}
+.u-center-block{
+    display:block;
+    margin-left:auto;
+    margin-right:auto
+}
+.u-align-center{
+    text-align:center
+}
+.u-relative{
+    position:relative
+}
+.u-inline-block{
+    display:inline-block
+}
+.u-invert{
+    color:#f0edf2
+}
+.u-limit-width{
+    max-width:40em
+}
+.u-margin-top-lg{
+    margin-top:4rem
+}
+.media-thumbnail{
+    border:4px solid hsla(0,0%,100%,.5);
+    border-radius:3px
+}
+.bg-mountain-city{
+    background-image:url(https://overwatch-a.akamaihd.net/img/pages/home/dorado-screenshot-003.jpg);
+    background-position:top
+}
+.bg-museum{
+    background-size:cover;
+    background-position:top
+}
+.bg-museum{
+    background-image:url(https://overwatch-a.akamaihd.net/img/bg-museum-2fe485c6cfa12dd07ebae267c34de56e6e504a3ded661dab4da27892f6639f6407c66bf577bede8448500eedd9ab620b0a899683f50da3a4849e3038312aded4.jpg)
+}
+.overwatch-footer{
+    background-image:url(https://overwatch-a.akamaihd.net/img/pages/buy/buy-bar-bg-b848f091bff6072bda7671311ce459727decd0281e85902958bc8d6b0b4d342875ad58385fa809928fd9b6bff0f7945217aed6e32581b6718a12fb99ab240f1c.jpg)
+}
+[hero-scene]{
+    padding-bottom:46.25%;
+    position:relative;
+    display:block;
+    overflow:hidden;
+    top:-20px;
+    margin-bottom:-27px
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    [hero-scene]{
+        padding-bottom:56.25%
+    }
+}
+@media only screen and (max-width:767px){
+    [hero-scene]{
+        background-image:url(https://overwatch-a.akamaihd.net/img/scene/header-mobile-a87f165787a49b5fec12a87e132e8933db689c07698584f0980fc1952475a33646d656fad14a01c621a8ab09bca7ef22a30063e543d385616ae8e60f2fed5a5f.jpg);
+        display:block;
+        background-size:100% auto;
+        margin-top:auto!important
+    }
+}
+[hero-scene] .scene{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:2
+}
+@media only screen and (max-width:767px){
+    [hero-scene] .scene{
+        display:none
+    }
+}
+[hero-scene] .fg{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:3
+}
+@media only screen and (max-width:767px){
+    [hero-scene] .fg{
+        display:none
+    }
+}
+[hero-scene] .bg{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:1
+}
+[hero-scene] .logo{
+    background-image:url(https://overwatch-a.akamaihd.net/img/overwatch-logo-69875dfcf61f21d1b4abf13954b249263b1e8521082e21386b048a2e95f0d680e85d074919792a5cbb0b97b5288f393424e452b98f6f6e58d1b1fcd5c5cc1feb.png);
+    background-position:center top 37%;
+    background-repeat:no-repeat;
+    background-size:35% auto;
+    position:inherit;
+    width:inherit;
+    height:inherit;
+    z-index:1
+}
+@media only screen and (max-width:767px){
+    [hero-scene] .logo{
+        background-position:center top 26%;
+        background-size:60% auto
+    }
+}
+[hero-scene] .layer{
+    position:absolute!important;
+    top:0;
+    left:0;
+    width:100%!important;
+    height:120%!important;
+    text-align:center;
+    z-index:inherit;
+    background-repeat:no-repeat;
+    bottom:-5%
+}
+[hero-scene] .layer.left{
+    left:0!important;
+    right:auto!important;
+    bottom:-5%!important;
+    top:auto!important
+}
+[hero-scene] .layer.right{
+    left:auto!important;
+    right:0!important;
+    bottom:-5%!important;
+    top:auto!important
+}
+[hero-scene] .layer.tracer{
+    z-index:4;
+    left:-1%!important;
+    background-size:28% auto;
+    background-position:bottom left -6.5vw;
+    background-image:url(https://overwatch-a.akamaihd.net/img/scene/hero-left-1-fa62b53cb061e1bcadc488a220e63fb8e444c72a139c96e190f1b3a519de752e04da049c93e31c6520719cedf70973ff8f4d74311858c8c28dba9b56fa084a52.png)
+}
+[hero-scene] .layer.widowmaker{
+    z-index:4;
+    right:-1%!important;
+    background-size:26% auto;
+    background-position:bottom -5vw right -5vw;
+    background-image:url(https://overwatch-a.akamaihd.net/img/scene/hero-right-1-825898d4d5f1cd8abe86b56f3d4edda96efde61339df0de69a4ba669f97e70362deccb4ef07aac6b8458e0c9fd1093be03c53927a7b6d81729d2294005f423da.png)
+}
+[hero-scene] .layer.symmetra{
+    z-index:3;
+    background-size:19% auto;
+    background-position:bottom left 8vw;
+    background-image:url(https://overwatch-a.akamaihd.net/img/scene/hero-left-2-44478067c4b29f6ef3838d680161c1150c4dc89eb9cd5499c14e4b04143624d23ca9591f320b50feffd1ea9998f2fce534aad30b9c861f2395126321a64c35af.png)
+}
+[hero-scene] .layer.hanzo{
+    z-index:3;
+    background-size:21% auto;
+    background-position:bottom -1vw right 7vw;
+    background-image:url(https://overwatch-a.akamaihd.net/img/scene/hero-right-2-e7c5b4539a2a41e1305a0b37400d278ab5f48b736d1d87cbcfaf82745da891050a0efffd245b2c84b42717e7a91ea94e1f37deeb4ec4df43e7fde47072bcf389.png)
+}
+[hero-scene] .layer.soldier-76{
+    z-index:2;
+    background-size:29% auto;
+    background-position:bottom -5.5vw left 13vw;
+    background-image:url(https://overwatch-a.akamaihd.net/img/scene/hero-left-345-07dd522dd7d3697d97925b7a1bc0812fa67fa2066f612704eb7bc0379ada5a656f0689e06500c89b2fe3a667595875b09a4cc8f07b87fcef70c3e50aa7f56a07.png)
+}
+[hero-scene] .layer.mercy{
+    z-index:2;
+    background-size:29% auto;
+    background-position:bottom -3vw right 17vw;
+    background-image:url(https://overwatch-a.akamaihd.net/img/scene/hero-right-345-296082a131ba6c5f49982ea36cf523a86b119d04f8d5852a0519de16819a8e43b4eef32b8350205bfd802e7e2ad1a0532664e69a810e1a9ae4530edb03d5cad5.png)
+}
+[hero-scene] .layer.winston{
+    z-index:1;
+    background-size:15% auto;
+    background-position:top 19vw left 23vw;
+    background-image:url(https://overwatch-a.akamaihd.net/img/scene/hero-left-6-a585da98cd45d00e65da0c1130ee12de5bfb1e71f2d96050853fc610d61f7930fafd5e82a84cc2d897b0c31ebbdc4007db6fa03f155b457aa6a46cd598fe7ab3.png)
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    [hero-scene] .layer.winston{
+        background-position:top 25vw left 23vw
+    }
+}
+[hero-scene] .layer.pharah{
+    z-index:1;
+    background-size:23% auto;
+    background-position:top 17vw right 18vw;
+    background-image:url(https://overwatch-a.akamaihd.net/img/scene/hero-right-6-d28f170b9794044d6b823ec08b52b7cfabc43424a587be6f8bad8a13eb5a43ea1df1d193d0ac1e8fe122070f7cc10dbcc4483abfb31eb8313944686d6e257da9.png)
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    [hero-scene] .layer.pharah{
+        background-position:top 22vw right 18vw
+    }
+}
+[hero-scene] .particles{
+    width:inherit;
+    height:inherit;
+    position:inherit;
+    z-index:3;
+    opacity:.25
+}
+[hero-scene] .deco{
+    width:inherit;
+    height:inherit;
+    position:inherit;
+    bottom:0;
+    z-index:2;
+    background-image:url(https://overwatch-a.akamaihd.net/img/scene/deco-961c7a2105392c84e18599be2a28c2de5da372afbdc1a34c2faca5f845a6fd8aaa4e0411bfc87d0bd2091aead62aebe2f54b8d4cb0953a35ebbbe0ced0122b16.png);
+    background-position:bottom;
+    background-repeat:no-repeat
+}
+[hero-scene] .video{
+    width:inherit;
+    height:inherit;
+    z-index:2;
+    position:inherit;
+    height:100%;
+    width:auto;
+    left:50%;
+    -webkit-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    transform:translateX(-50%)
+}
+@media only screen and (max-width:767px){
+    [hero-scene] .video{
+        display:none
+    }
+}
+.u-anchor-bottom{
+    position:absolute;
+    bottom:0
+}
+@media only screen and (max-width:767px){
+    body{
+        background-color:#fbe6e9
+    }
+}
+body .content-box{
+    padding-bottom:80px
+}
+body .heroes-section{
+    text-align:center;
+    background-image:url(https://overwatch-a.akamaihd.net/img/scene/candy-895e91cbc198218dbe56fed67b590a7c37a8bc3ef29d4b8c2989edf2196cfdb4b6150e64cb6f57a01a26268ae764b4cc22da52168121287e68aa8a9891efd616.jpg);
+    background-position:top;
+    background-size:cover
+}
+body .prepurchase-section-desktop{
+    text-align:center;
+    position:relative;
+    border-top:1px solid hsla(0,0%,100%,.4)
+}
+body .cta-bar-container{
+    position:relative;
+    z-index:20;
+    display:none
+}
+body .cta-bar-container .button{
+    padding-top:0;
+    padding-bottom:0;
+    border-top:0;
+    border-bottom:0
+}
+body .cta-bar-container .center-in-button{
+    padding-top:12px;
+    padding-bottom:12px
+}
+body .cta-bar-container .cell{
+    width:50%;
+    display:table-cell;
+    height:100%
+}
+body .cta-bar-container .cell a{
+    height:100%
+}
+body .cta-bar-container .cta-bar{
+    display:table;
+    width:100%;
+    height:100%;
+    margin-top:5px
+}
+body .cta-bar-container .cta-bar .center-in-button-wrapper{
+    height:100%;
+    width:100%;
+    display:table
+}
+body .cta-bar-container .cta-bar .center-in-button{
+    display:table-cell;
+    vertical-align:middle;
+    height:100%
+}
+body .cta-bar-container .cta-bar .buy-cta,body .cta-bar-container .cta-bar .video-cta{
+    position:relative
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    body .cta-bar-container .cta-bar .buy-cta,body .cta-bar-container .cta-bar .video-cta{
+        font-size:2rem
+    }
+}
+body .cta-bar-container .cta-bar .buy-cta{
+    float:right;
+    padding-right:140px;
+    padding-left:20px;
+    display:inline-block;
+    width:auto
+}
+body .cta-bar-container .cta-bar .buy-cta .btn-art{
+    opacity:0
+}
+body .cta-bar-container .cta-bar .buy-cta{
+    opacity:1
+}
+body .cta-bar-container .cta-bar .video-cta{
+    float:left;
+    padding-left:180px;
+    padding-right:20px;
+    display:inline-block;
+    width:auto
+}
+body .cta-bar-container .cta-bar .video-cta .media-thumbnail{
+    border:0;
+    border-radius:0
+}
+body .cta-bar-container .cta-bar .video-cta .media-thumbnail>.wrap:after{
+    background-size:30% auto
+}
+body .cta-bar-container .cta-bar .video-cta .btn-art{
+    left:10px;
+    width:150px;
+    margin-top:0;
+    right:auto
+}
+body .cta-bar-container .cta-bar .btn-art{
+    position:absolute;
+    right:10px;
+    display:block;
+    top:50%;
+    -webkit-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    transform:translateY(-50%)
+}
+@media only screen and (min-width:768px){
+    body .cta-bar-container{
+        display:block
+    }
+}
+body .widowmaker-container{
+    padding-top:77%
+}
+@media only screen and (min-width:768px){
+    body .widowmaker-container{
+        padding-top:38%
+    }
+}
+body .fg-widowmaker-shoulder-rifle{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+    height:116%;
+    background-size:90% auto;
+    background-position:top
+}
+@media only screen and (max-width:767px){
+    body .fg-widowmaker-shoulder-rifle{
+        background-image:url(https://overwatch-a.akamaihd.net/img/pages/home/widowmaker-base-mobile-21177f4b1ca6935cf56c8d3fe42ba551e035976bc5c2c18c90a488ac698e9cd59a7932be7e06a3dba4d09fb234c4f8d65ef36a5176022295040669b8b35cd148.png)
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    body .fg-widowmaker-shoulder-rifle{
+        height:110%;
+        background-image:url(https://overwatch-a.akamaihd.net/img/pages/home/widowmaker-base-tablet-11255b2a5eec387ea5fe03d5ba8d803e9595d9233ac3fc80fde9f389b092c2ae0cb50b71cbad16a5b952b00c9888874a50c0593028ba226322ecf7ebe03ea3f6.png);
+        background-size:auto 100%
+    }
+}
+@media only screen and (min-width:992px){
+    body .fg-widowmaker-shoulder-rifle{
+        width:50%;
+        height:118%;
+        background-image:url(https://overwatch-a.akamaihd.net/img/pages/home/widowmaker-base-a2d08e6c665464c6b97c81e73c82508837ef27966d1ae309f8259526f18c1bbb164feda3df610e2176504bd41815319ee9e43351f644082d9e8b84417f917139.png);
+        background-size:100% auto
+    }
+}
+body .overwatch-game-container{
+    position:relative;
+    margin-top:-32%
+}
+@media only screen and (min-width:768px){
+    body .overwatch-game-container{
+        margin-top:-6%
+    }
+}
+@media only screen and (min-width:992px){
+    body .overwatch-game-container{
+        margin-top:3rem
+    }
+}
+@media only screen and (min-width:2300px){
+    body .overwatch-game-container{
+        margin-top:8rem
+    }
+}
+@media only screen and (min-width:2520px){
+    body .overwatch-game-container{
+        margin-top:13rem
+    }
+}
+body .overwatch-game{
+    vertical-align:top;
+    width:23%;
+    max-width:180px;
+    margin-top:1.5rem
+}
+body .overwatch-game-pc{
+    width:33%;
+    max-width:251px;
+    margin:0 1rem -2rem
+}
+@media only screen and (min-width:768px){
+    body .overwatch-game-pc{
+        margin-left:3rem;
+        margin-right:3rem
+    }
+}
+@media screen and (min-width:400px) and (max-width:767px){
+    body .buy-cta,body .intro-trailer{
+        width:100%;
+        max-width:310px
+    }
+}
+body .bg-mountain-city{
+    min-height:14rem;
+    background-size:cover;
+    background-position:80% top;
+    background-image:url(https://overwatch-a.akamaihd.net/img/pages/home/dorado-tablet-ca70d2eac24ee305b75722198a4bb2993007b4003c59f2f39647f49bcf1f1f395d5e38eec1c8e80ce1826a040e875d8a1c1b5f755c0e5932c3710bf3ed5ac802.jpg)
+}
+@media only screen and (min-width:992px){
+    body .bg-mountain-city{
+        min-height:20rem;
+        background-position:center 16%;
+        background-image:url(https://overwatch-a.akamaihd.net/img/pages/home/dorado-desktop-2cfea7233598311850e3f484a91e1d48df48496ff062b0b639595bfa217c0ce1129464b6b3e3107c165b24e99a794aa181244d4b440507e9e02a5abba3f08583.jpg)
+    }
+}
+@media only screen and (min-width:1300px){
+    body .bg-mountain-city{
+        background-attachment:fixed;
+        min-height:33.5rem
+    }
+}
+body .bottom-bg{
+    background:url(https://overwatch-a.akamaihd.net/img/pages/home/game-bg-mobile-9b5ab1105cb78274fdc8b01c6d66ca7005d1669c773cf4ec1835cee9a954839b98531f4ee162c016132d8610fd03d95634d6b5e30a92ea7a87ab6c30582732dd.png) 0 bottom
+}
+@media only screen and (min-width:768px){
+    body .bottom-bg{
+        background:url(https://overwatch-a.akamaihd.net/img/pages/home/game-bg-tablet-923be442d4c671786b4a30d92481ddc28252eda66b0be3b4f15b96412a06fea13d66e3bb7ea9de54058253e7d1df4376da08586341045707b97053bb96a84bcb.png) no-repeat
+    }
+}
+body .hero-portrait-group{
+    max-width:54.6rem;
+    padding:0 1.2rem
+}
+@media only screen and (min-width:768px){
+    body .hero-portrait-group{
+        padding:0
+    }
+}
+body .spotlight,body .spotlight>.header,body .spotlight>.holder{
+    position:relative
+}
+@media only screen and (min-width:992px){
+    body .spotlight:before{
+        top:59%;
+        padding-top:28.07%;
+        background-image:url(https://overwatch-a.akamaihd.net/img/pages/home/glow-030cacba3775cada54d21deaecca8aa7867ea827f78b371979da93f718b43de5da1d11fc70f2e56b239ec584dad0dae1818bc8a836e223aecf7b2fc6910ed993.png)
+    }
+}
+@media only screen and (min-width:992px){
+    body .spotlight:before,body .spotlight>.header:before{
+        content:'';
+        position:absolute;
+        left:0;
+        right:0;
+        background-size:cover
+    }
+    body .spotlight>.header:before{
+        top:87%;
+        padding-top:10.4%;
+        background-image:url(https://overwatch-a.akamaihd.net/img/pages/home/line-glow-5da04a031d5f67937a1f8c3c777a4f70931aaa42b259d6c71c2b58842baa165efeccd7e3c18370b7637b11b44b6cc2e9a51550b8e93e8c9f6b6428596d10d564.png)
+    }
+}
+body .spotlight>.caption{
+    min-height:7em
+}
+@media only screen and (min-width:1300px){
+    body .spotlight>.caption{
+        min-height:5em
+    }
+}
+body .mobile-cta{
+    text-align:center
+}
+@media only screen and (min-width:768px){
+    body .mobile-cta{
+        display:none
+    }
+}
+body .mobile-cta .buy-cta{
+    margin:25px auto 0
+}
+body .mobile-cta .intro-trailer{
+    margin:35px auto;
+    display:block;
+    max-width:none
+}
+body .cta-bar{
+    padding:0 .8333%
+}
+html{
+    font-family:sans-serif;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%
+}
+body{
+    margin:0
+}
+section{
+    display:block
+}
+video{
+    display:inline-block;
+    vertical-align:baseline
+}
+a{
+    background-color:transparent
+}
+a:hover{
+    outline:0
+}
+img{
+    border:0
+}
+.row{
+    max-width:none;
+    margin-left:auto;
+    margin-right:auto
+}
+.row:after,.row:before{
+    content:' ';
+    display:table;
+    -ms-flex-preferred-size:0;
+    flex-basis:0;
+    -webkit-box-ordinal-group:2;
+    -ms-flex-order:1;
+    order:1
+}
+.row:after{
+    clear:both
+}
+.column{
+    width:100%;
+    float:left;
+    padding-left:1.2rem;
+    padding-right:1.2rem
+}
+@media screen and (min-width:62em){
+    .column{
+        padding-left:2.2rem;
+        padding-right:2.2rem
+    }
+}
+.column:last-child:not(:first-child){
+    float:right
+}
+.column.row.row{
+    float:none
+}
+.xs-12{
+    width:100%
+}
+@media screen and (min-width:62em){
+    .lg-6{
+        width:50%
+    }
+    .lg-offset-6{
+        margin-left:50%
+    }
+}
+@media screen and (min-width:81.25em){
+    .xl-5{
+        width:41.66667%
+    }
+    .xl-offset-6{
+        margin-left:50%
+    }
+}
+div,h2,li,p,ul{
+    margin:0;
+    padding:0
+}
+p{
+    font-size:inherit;
+    line-height:1.6;
+    margin-bottom:1rem;
+    text-rendering:optimizeLegibility
+}
+h2{
+    font-family:Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight:400;
+    font-style:normal;
+    color:inherit;
+    text-rendering:optimizeLegibility;
+    margin-top:0;
+    margin-bottom:.5rem;
+    line-height:1.4
+}
+h2{
+    font-size:2rem
+}
+h2{
+    font-size:4rem
+}
+a{
+    color:#2199e8;
+    text-decoration:none;
+    line-height:inherit;
+    cursor:pointer
+}
+a img{
+    border:0
+}
+ul{
+    line-height:1.6;
+    margin-bottom:1rem;
+    list-style-position:outside
+}
+li{
+    font-size:inherit
+}
+ul{
+    list-style-type:disc
+}
+ul{
+    margin-left:1.25rem
+}
+@media screen and (min-width:62em){
+    .hide-for-lg{
+        display:none!important
+    }
+}
+@media screen and (max-width:61.9375em){
+    .show-for-lg{
+        display:none!important
+    }
+}
+*,:after,:before{
+    box-sizing:inherit;
+    background-repeat:no-repeat;
+    vertical-align:inherit;
+    white-space:inherit;
+    text-overflow:inherit;
+    text-shadow:inherit
+}
+html{
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display:block;
+    box-sizing:border-box;
+    font-size:10px
+}
+body{
+    color:#405275;
+    padding:0;
+    margin:0;
+    width:100%;
+    height:100%;
+    display:block;
+    background-color:#f0edf2;
+    max-width:100%;
+    overflow-x:hidden;
+    font:normal normal normal 10px Arial,sans-serif;
+    font-size:1.5rem;
+    line-height:1.4
+}
+@media only screen and (min-width:400px){
+    body{
+        font-size:1.6rem;
+        line-height:1.5
+    }
+}
+@media screen and (min-width:2560px){
+    body{
+        max-width:2560px;
+        margin-left:auto;
+        margin-right:auto
+    }
+}
+h2{
+    margin:0;
+    display:block;
+    text-transform:uppercase;
+    white-space:normal
+}
+h2{
+    font:italic normal normal 10px Big Noodle Too,impact,sans-serif;
+    font-size:4.8rem;
+    line-height:normal;
+    letter-spacing:.08rem
+}
+@media only screen and (min-width:400px){
+    h2{
+        font-size:5.6rem
+    }
+}
+@media only screen and (min-width:1300px){
+    h2{
+        font-size:7.2rem
+    }
+}
+.intro-text{
+    font:normal normal normal 10px Futura,century gothic,arial,sans-serif;
+    font-size:2rem;
+    line-height:normal
+}
+@media only screen and (min-width:400px){
+    .intro-text{
+        font-size:2.4rem
+    }
+}
+@media only screen and (min-width:1300px){
+    .intro-text{
+        font-size:2.8rem
+    }
+}
+.media-thumbnail>.caption{
+    font:normal normal normal 10px Futura,century gothic,arial,sans-serif;
+    font-size:1.6rem;
+    line-height:normal;
+    letter-spacing:.5px
+}
+@media only screen and (min-width:400px){
+    .media-thumbnail>.caption{
+        font-size:1.8rem
+    }
+}
+p{
+    margin-bottom:0;
+    white-space:normal
+}
+a,span{
+    white-space:normal
+}
+a{
+    color:#f7931e
+}
+a:hover{
+    color:#f9ab4f
+}
+ul{
+    list-style:none;
+    padding:0;
+    margin:0
+}
+@font-face{
+    font-family:Futura;
+    src:url(https://overwatch-a.akamaihd.net/fonts/FuturaNo2D-DemiBold-98f2fdd61b56a515bb9b6e74e00a71a3d5f83cfa5a3333b17b2576f3ef282cc29b29c8bb3a885d763627b7ce12db1c5060bfcbe80b60ee98855d59ee816f6e5c.eot);
+    src:url(https://overwatch-a.akamaihd.net/fonts/FuturaNo2D-DemiBold.eot?#iefix) format("embedded-opentype"),url(https://overwatch-a.akamaihd.net/fonts/FuturaNo2D-DemiBold-6109ce4d3e61ce549556924258e8a3bb9a17599f0532c63395e23571d9135963193d465262e32ef89a31f0247dff22c3f46b0f5bd5b3259222d1f55b3b496ac0.woff) format("woff"),url(https://overwatch-a.akamaihd.net/fonts/FuturaNo2D-DemiBold-3b3b5cb31e2bb1363260b80b7bcfd671618b11ace6c1192bc678abe9ba7199f93e56ca327d660fd1aa5987cb32bc1cf16dd2fc63c20c4504263d13672540c32a.ttf) format("truetype"),url(https://overwatch-a.akamaihd.net/fonts/FuturaNo2D-DemiBold.svg#futura) format("svg");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:Big Noodle Too;
+    src:url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too-6c57d058d1979cbf30e5b5b02638ef0d835f2c29502e0efa328ff91f75e8412a9c82fbf440b896377ed62506d1787666f67f81b99ef004a230c6fcf084b7a3fa.eot);
+    src:url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too.eot?#iefix) format("embedded-opentype"),url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too-eaef42cc66ce3dcbe29cd88eca8801d55fe8dcc11c7153cc9c3f3418084ef1c50b1b7e270c826ded2d868a825af5c5b9d9be69d25795aae62c721c64faef1a95.woff) format("woff"),url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too-6fb923dc5ced5be50c4912cfefa93d8b09a54f1947dc5ca4584c79dfd393cdd4b166d0e8c7dee293f0df2f84c878b7846a83770941504b1b24671c2854577ce9.ttf) format("truetype"),url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too.svg#bignoodletoo) format("svg");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:Big Noodle Too;
+    src:url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too-oblique-903d64d3da120253768ac916e2de43cffcc73b4bfe48f8c0a2389951aefee08ebb0efe2463c0d6e4ee1c705fbe0a9b28d78e48a7b52451771c0cec872381873d.eot);
+    src:url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too-oblique.eot?#iefix) format("embedded-opentype"),url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too-oblique-0762bcfb7ce452ecfa21830ab40ee34f9bf2e6fbcecb649c8995bd59fdf93a74a8345855c3890ec3901ac7ca442040112f37f387c98a57ced5af61d92ee8e06c.woff) format("woff"),url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too-oblique-feb40854f431c46dcc2dd7bf2e4064bfd0617105de546a2415208b9ac38816d19a25a3631d3a88575e1c7a513d14f56defd342c3354f5d65f5ad1aef16c59402.ttf) format("truetype"),url(https://overwatch-a.akamaihd.net/fonts/big-noodle-too-oblique.svg#bignoodletoo) format("svg");
+    font-weight:400;
+    font-style:italic
+}
+.clearfix:after{
+    content:"";
+    display:block;
+    clear:both
+}
+section.outter{
+    display:block;
+    width:100%;
+    max-width:100%;
+    padding-bottom:3px
+}
+section>.inner{
+    width:100%;
+    max-width:1250px;
+    padding:0 15px;
+    margin:0 auto
+}
+section>.inner:after{
+    content:'';
+    display:block;
+    height:0;
+    clear:both
+}
+@media only screen and (min-width:768px){
+    section>.inner{
+        padding:0 30px
+    }
+}
+.page-wrapper{
+    margin-left:auto;
+    margin-right:auto
+}
+@media only screen and (min-width:992px){
+    .page-wrapper{
+        max-width:960px
+    }
+}
+@media (min-width:1100px){
+    .page-wrapper{
+        max-width:1050px
+    }
+}
+@media only screen and (min-width:1300px){
+    .page-wrapper{
+        max-width:1280px
+    }
+}
+@media only screen and (min-width:1600px){
+    .page-wrapper{
+        max-width:1600px
+    }
+}
+h2+p{
+    margin-top:.5em
+}
+.button{
+    display:inline-block;
+    text-align:center;
+    cursor:pointer;
+    appearance:none;
+    vertical-align:middle;
+    border-radius:2px;
+    padding:6px 45px;
+    text-transform:uppercase;
+    border:none;
+    outline:0;
+    border:3px solid #ff9c00;
+    background-color:#ff9c00;
+    color:#333;
+    line-height:1;
+    letter-spacing:.025em;
+    font-family:Futura,century gothic,arial,sans-serif;
+    font-weight:700;
+    font-size:1.6rem;
+    -webkit-transition:all .2s;
+    transition:all .2s;
+    text-shadow:none
+}
+.button:hover{
+    border-color:#ffb033;
+    background-color:#ffb033;
+    -webkit-transition:none;
+    transition:none
+}
+.button.m-lg{
+    font-size:2.6rem;
+    padding:6.5px 32px;
+    color:#fefefe
+}
+@media only screen and (min-width:992px){
+    .button.m-lg{
+        font-size:3.2rem;
+        padding:9px 40px
+    }
+}
+@media only screen and (max-width:399px){
+    .button,.button.m-lg{
+        width:100%;
+        padding-left:0;
+        padding-right:0
+    }
+}
+.content-box{
+    padding-top:44px;
+    padding-bottom:44px
+}
+@media only screen and (min-width:992px){
+    .content-box{
+        padding-top:80px;
+        padding-bottom:80px
+    }
+}
+.section-divider{
+    position:relative
+}
+.section-divider:after,.section-divider:before{
+    content:'';
+    position:absolute;
+    left:0;
+    right:0;
+    background-size:auto 100%;
+    background-position:top;
+    background-repeat:no-repeat
+}
+.section-divider:before{
+    bottom:100%
+}
+.section-divider:after{
+    top:100%
+}
+.section-divider.m-top-only:after{
+    content:none
+}
+.section-divider.m-line:after,.section-divider.m-line:before{
+    height:.35rem;
+    border:.35rem solid hsla(0,0%,45%,.7)
+}
+.section-divider.m-inset:before{
+    top:0;
+    bottom:auto;
+    -webkit-transform:scaleY(-1);
+    transform:scaleY(-1)
+}
+.section-divider.m-inset:after{
+    bottom:0;
+    top:auto;
+    -webkit-transform:scaleX(1);
+    transform:scaleX(1)
+}
+.hero-portrait{
+    position:relative;
+    display:inline-block;
+    padding-bottom:2rem;
+    -webkit-transition:all .1s cubic-bezier(.19,1,.22,1);
+    transition:all .1s cubic-bezier(.19,1,.22,1)
+}
+.hero-portrait.active,.hero-portrait:hover{
+    -webkit-transition:all .11s cubic-bezier(.075,.82,.165,1);
+    transition:all .11s cubic-bezier(.075,.82,.165,1)
+}
+.hero-portrait>.wrap{
+    display:inline-block;
+    position:relative;
+    overflow:hidden;
+    width:8rem;
+    height:8rem;
+    background-color:#fff;
+    -webkit-transition:all .1s cubic-bezier(.19,1,.22,1);
+    transition:all .1s cubic-bezier(.19,1,.22,1);
+    border-radius:7px;
+    border:3px solid #f0edf2;
+    border-left-width:0;
+    border-right-width:0
+}
+@media only screen and (min-width:768px){
+    .hero-portrait>.wrap{
+        background-color:transparent;
+        -webkit-transform:skew(-.25rad);
+        -ms-transform:skew(-.25rad);
+        transform:skew(-.25rad);
+        width:7rem;
+        height:8.5rem
+    }
+}
+.hero-portrait.active>.wrap,.hero-portrait:hover>.wrap{
+    -webkit-transform:scale(1.2) translateZ(0);
+    transform:scale(1.2) translateZ(0);
+    -webkit-transform-origin:center;
+    -ms-transform-origin:center;
+    transform-origin:center;
+    z-index:0;
+    -webkit-transition:all .11s cubic-bezier(.075,.82,.165,1);
+    transition:all .11s cubic-bezier(.075,.82,.165,1);
+    border-left-width:3px;
+    border-right-width:3px
+}
+@media only screen and (min-width:768px){
+    .hero-portrait.active>.wrap,.hero-portrait:hover>.wrap{
+        -webkit-transform:scale(1.2) skew(-.25rad) translateZ(0);
+        transform:scale(1.2) skew(-.25rad) translateZ(0)
+    }
+}
+.hero-portrait>.wrap>.image{
+    position:absolute;
+    left:50%;
+    height:96%;
+    top:2%;
+    padding-right:200%;
+    -webkit-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    transform:translateX(-50%);
+    background-position:50%;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-color:rgba(51,51,51,.9);
+    -webkit-transition:inherit;
+    transition:inherit
+}
+@media only screen and (min-width:768px){
+    .hero-portrait>.wrap>.image{
+        top:0;
+        height:100%;
+        -webkit-transform:skew(.25rad) translateX(-50%);
+        -ms-transform:skew(.25rad) translateX(-50%);
+        transform:skew(.25rad) translateX(-50%)
+    }
+}
+.hero-portrait.active>.wrap>.image,.hero-portrait:hover>.wrap>.image{
+    background-color:#f7931e
+}
+.hero-portrait>.label{
+    position:absolute;
+    bottom:.3rem;
+    display:block;
+    width:100%;
+    font-size:1.2rem;
+    font-family:Futura,century gothic,arial,sans-serif;
+    text-transform:uppercase;
+    color:#333;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -webkit-transition:none;
+    transition:none
+}
+@media only screen and (min-width:768px){
+    .hero-portrait>.label{
+        bottom:.5rem;
+        font-size:1rem;
+        -webkit-transform:translateX(-1.05rem);
+        -ms-transform:translateX(-1.05rem);
+        transform:translateX(-1.05rem)
+    }
+}
+.hero-portrait.active>.label,.hero-portrait:hover>.label{
+    left:50%;
+    width:auto;
+    padding:.1rem 1rem;
+    z-index:0;
+    border-radius:.3rem;
+    background-color:#f0edf2;
+    white-space:nowrap;
+    overflow:visible;
+    text-overflow:inherit;
+    -webkit-transform:translateX(-50%) translateY(-.5rem);
+    -ms-transform:translateX(-50%) translateY(-.5rem);
+    transform:translateX(-50%) translateY(-.5rem)
+}
+@media only screen and (min-width:768px){
+    .hero-portrait.active>.label,.hero-portrait:hover>.label{
+        -webkit-transform:translateX(-50%) translateX(-1.25rem) translateY(-.5rem);
+        -ms-transform:translateX(-50%) translateX(-1.25rem) translateY(-.5rem);
+        transform:translateX(-50%) translateX(-1.25rem) translateY(-.5rem)
+    }
+}
+.intro-text{
+    line-height:1.47;
+    margin-bottom:3.6rem
+}
+.intro-trailer{
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    margin-top:18px
+}
+@media only screen and (min-width:400px){
+    .intro-trailer{
+        margin-top:60px
+    }
+}
+.intro-heading{
+    margin-bottom:44px;
+    text-transform:uppercase;
+    font-style:italic
+}
+.intro-heading-gradient-blue{
+    background:-webkit-linear-gradient(top,#3f6493 10%,#345177);
+    background-image:-o-linear-gradient(transparent,transparent);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    text-shadow:0 4px 5px rgba(60,72,96,.5)
+}
+.logo{
+    width:190px;
+    height:143px;
+    background-image:url(https://overwatch-a.akamaihd.net/img/overwatch-logo-mobile-8008957e80296921744e7b6a98e068deb0a9eae4c0573782c108b0778472eebd0ced9ccf81ce364936c4adb5ad871b43bc6e2fad9cc1d39aec5c431085b76648.png);
+    background-size:contain
+}
+@media only screen and (min-width:768px){
+    .logo{
+        width:794px;
+        height:452px;
+        background-image:url(https://overwatch-a.akamaihd.net/img/overwatch-logo-69875dfcf61f21d1b4abf13954b249263b1e8521082e21386b048a2e95f0d680e85d074919792a5cbb0b97b5288f393424e452b98f6f6e58d1b1fcd5c5cc1feb.png);
+        background-size:contain
+    }
+}
+.media-thumbnail{
+    display:block;
+    text-decoration:none
+}
+.media-thumbnail:hover{
+    border-width:4px;
+    border-color:#fff
+}
+.media-thumbnail>.caption{
+    display:block;
+    color:rgba(240,237,242,.8);
+    background-color:#333;
+    text-transform:uppercase;
+    padding:.7rem 1.6rem;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px
+}
+.media-thumbnail:hover>.caption{
+    color:#f0edf2
+}
+.media-thumbnail>.wrap{
+    position:relative;
+    overflow:hidden
+}
+.media-thumbnail>.wrap:before{
+    content:'';
+    display:block;
+    height:0;
+    padding-top:56.25%
+}
+.media-thumbnail.m-playable>.wrap:after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    -webkit-transition:all .2s cubic-bezier(.25,.46,.45,.94);
+    transition:all .2s cubic-bezier(.25,.46,.45,.94);
+    background-position:50%;
+    background-repeat:no-repeat;
+    background-size:13% auto
+}
+.media-thumbnail.m-playable>.wrap:after{
+    background-image:url(https://overwatch-a.akamaihd.net/img/icons/youtube-btn-ylw-3b7a39de394045b70e2a6c5ddb0bbf453cdcc761146353357386041d760ef9b5de42fde1f553b604a190751bf7483feca4499bc9626d7495ca451f0c4d721698.png)
+}
+.media-thumbnail.m-playable:hover>.wrap:after{
+    background-image:url(https://overwatch-a.akamaihd.net/img/icons/youtube-btn-wh-cc89ad76a714abd9456953b9fdfe7c054ad74c7c65841b0e157963c9e7de03e36cdd72299e75092be33ce9dc4b5ec45cf5afc98e4375e36c08d038141a9c8f93.png)
+}
+.media-thumbnail.m-playable:hover>.wrap:after{
+    background-color:rgba(51,51,51,.5)
+}
+.media-thumbnail>.wrap>.media{
+    position:absolute;
+    width:100%;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    border-top-left-radius:3px;
+    border-top-right-radius:3px
+}
+.spotlight>.header{
+    color:#f0edf2
+}
+.spotlight>.holder{
+    display:block;
+    padding-top:87.5%;
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-position:top
+}
+.spotlight>.caption{
+    min-height:7em
+}
+.u-center-block{
+    display:block;
+    margin-left:auto;
+    margin-right:auto
+}
+.u-align-center{
+    text-align:center
+}
+.u-relative{
+    position:relative
+}
+.u-inline-block{
+    display:inline-block
+}
+.u-invert{
+    color:#f0edf2
+}
+.u-limit-width{
+    max-width:40em
+}
+.u-margin-top-lg{
+    margin-top:4rem
+}
+.media-thumbnail{
+    border:4px solid hsla(0,0%,100%,.5);
+    border-radius:3px
+}
+.bg-mountain-city{
+    background-image:url(https://overwatch-a.akamaihd.net/img/pages/home/dorado-screenshot-003.jpg);
+    background-position:top
+}
+.bg-museum{
+    background-size:cover;
+    background-position:top
+}
+.bg-museum{
+    background-image:url(https://overwatch-a.akamaihd.net/img/bg-museum-2fe485c6cfa12dd07ebae267c34de56e6e504a3ded661dab4da27892f6639f6407c66bf577bede8448500eedd9ab620b0a899683f50da3a4849e3038312aded4.jpg)
+}
+.overwatch-footer{
+    background-image:url(https://overwatch-a.akamaihd.net/img/pages/buy/buy-bar-bg-b848f091bff6072bda7671311ce459727decd0281e85902958bc8d6b0b4d342875ad58385fa809928fd9b6bff0f7945217aed6e32581b6718a12fb99ab240f1c.jpg)
+}
+[hero-scene]{
+    padding-bottom:46.25%;
+    position:relative;
+    display:block;
+    overflow:hidden
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    [hero-scene]{
+        padding-bottom:56.25%
+    }
+}
+@media only screen and (max-width:767px){
+    [hero-scene]{
+        padding-bottom:84.77%;
+        margin-top:45px
+    }
+}
+[hero-scene] .scene{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:2
+}
+@media only screen and (max-width:767px){
+    [hero-scene] .scene{
+        display:none
+    }
+}
+[hero-scene] .fg{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:3
+}
+@media only screen and (max-width:767px){
+    [hero-scene] .fg{
+        display:none
+    }
+}
+[hero-scene] .bg{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:1
+}
+[hero-scene] .logo{
+    background-image:url(https://overwatch-a.akamaihd.net/img/overwatch-logo-69875dfcf61f21d1b4abf13954b249263b1e8521082e21386b048a2e95f0d680e85d074919792a5cbb0b97b5288f393424e452b98f6f6e58d1b1fcd5c5cc1feb.png);
+    background-position:center top 37%;
+    background-repeat:no-repeat;
+    background-size:35% auto;
+    position:inherit;
+    width:inherit;
+    height:inherit;
+    z-index:1
+}
+@media only screen and (max-width:767px){
+    [hero-scene] .logo{
+        background-position:center top 26%;
+        background-size:60% auto
+    }
+}
+[hero-scene] .layer{
+    position:absolute!important;
+    top:0;
+    left:0;
+    width:100%!important;
+    height:120%!important;
+    text-align:center;
+    z-index:inherit;
+    background-repeat:no-repeat;
+    bottom:-5%
+}
+[hero-scene] .layer.left{
+    left:0!important;
+    right:auto!important;
+    bottom:-5%!important;
+    top:auto!important
+}
+[hero-scene] .layer.right{
+    left:auto!important;
+    right:0!important;
+    bottom:-5%!important;
+    top:auto!important
+}
+[hero-scene] .layer.tracer{
+    z-index:4;
+    left:-1%!important;
+    background-size:28% auto;
+    background-position:bottom left -6.5vw;
+    background-image:url(https://overwatch-a.akamaihd.net/img/scene/hero-left-1-fa62b53cb061e1bcadc488a220e63fb8e444c72a139c96e190f1b3a519de752e04da049c93e31c6520719cedf70973ff8f4d74311858c8c28dba9b56fa084a52.png)
+}
+[hero-scene] .layer.widowmaker{
+    z-index:4;
+    right:-1%!important;
+    background-size:26% auto;
+    background-position:bottom -5vw right -5vw;
+    background-image:url(https://overwatch-a.akamaihd.net/img/scene/hero-right-1-825898d4d5f1cd8abe86b56f3d4edda96efde61339df0de69a4ba669f97e70362deccb4ef07aac6b8458e0c9fd1093be03c53927a7b6d81729d2294005f423da.png)
+}
+[hero-scene] .layer.symmetra{
+    z-index:3;
+    background-size:19% auto;
+    background-position:bottom left 8vw;
+    background-image:url(https://overwatch-a.akamaihd.net/img/scene/hero-left-2-44478067c4b29f6ef3838d680161c1150c4dc89eb9cd5499c14e4b04143624d23ca9591f320b50feffd1ea9998f2fce534aad30b9c861f2395126321a64c35af.png)
+}
+[hero-scene] .layer.hanzo{
+    z-index:3;
+    background-size:21% auto;
+    background-position:bottom -1vw right 7vw;
+    background-image:url(https://overwatch-a.akamaihd.net/img/scene/hero-right-2-e7c5b4539a2a41e1305a0b37400d278ab5f48b736d1d87cbcfaf82745da891050a0efffd245b2c84b42717e7a91ea94e1f37deeb4ec4df43e7fde47072bcf389.png)
+}
+[hero-scene] .layer.soldier-76{
+    z-index:2;
+    background-size:29% auto;
+    background-position:bottom -5.5vw left 13vw;
+    background-image:url(https://overwatch-a.akamaihd.net/img/scene/hero-left-345-07dd522dd7d3697d97925b7a1bc0812fa67fa2066f612704eb7bc0379ada5a656f0689e06500c89b2fe3a667595875b09a4cc8f07b87fcef70c3e50aa7f56a07.png)
+}
+[hero-scene] .layer.mercy{
+    z-index:2;
+    background-size:29% auto;
+    background-position:bottom -3vw right 17vw;
+    background-image:url(https://overwatch-a.akamaihd.net/img/scene/hero-right-345-296082a131ba6c5f49982ea36cf523a86b119d04f8d5852a0519de16819a8e43b4eef32b8350205bfd802e7e2ad1a0532664e69a810e1a9ae4530edb03d5cad5.png)
+}
+[hero-scene] .layer.winston{
+    z-index:1;
+    background-size:15% auto;
+    background-position:top 19vw left 23vw;
+    background-image:url(https://overwatch-a.akamaihd.net/img/scene/hero-left-6-a585da98cd45d00e65da0c1130ee12de5bfb1e71f2d96050853fc610d61f7930fafd5e82a84cc2d897b0c31ebbdc4007db6fa03f155b457aa6a46cd598fe7ab3.png)
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    [hero-scene] .layer.winston{
+        background-position:top 25vw left 23vw
+    }
+}
+[hero-scene] .layer.pharah{
+    z-index:1;
+    background-size:23% auto;
+    background-position:top 17vw right 18vw;
+    background-image:url(https://overwatch-a.akamaihd.net/img/scene/hero-right-6-d28f170b9794044d6b823ec08b52b7cfabc43424a587be6f8bad8a13eb5a43ea1df1d193d0ac1e8fe122070f7cc10dbcc4483abfb31eb8313944686d6e257da9.png)
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    [hero-scene] .layer.pharah{
+        background-position:top 22vw right 18vw
+    }
+}
+[hero-scene] .particles{
+    width:inherit;
+    height:inherit;
+    position:inherit;
+    z-index:3;
+    opacity:.25
+}
+[hero-scene] .deco{
+    width:inherit;
+    height:inherit;
+    position:inherit;
+    bottom:0;
+    z-index:2;
+    background-image:url(https://overwatch-a.akamaihd.net/img/scene/deco-961c7a2105392c84e18599be2a28c2de5da372afbdc1a34c2faca5f845a6fd8aaa4e0411bfc87d0bd2091aead62aebe2f54b8d4cb0953a35ebbbe0ced0122b16.png);
+    background-position:bottom;
+    background-repeat:no-repeat
+}
+[hero-scene] .video{
+    width:inherit;
+    height:inherit;
+    z-index:2;
+    position:inherit;
+    height:100%;
+    width:auto;
+    left:50%;
+    -webkit-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    transform:translateX(-50%)
+}
+@media only screen and (max-width:767px){
+    [hero-scene] .video{
+        display:none
+    }
+}
+.u-anchor-bottom{
+    position:absolute;
+    bottom:0
+}
+@media only screen and (max-width:767px){
+    body{
+        background-color:#fbe6e9
+    }
+}
+body .content-box{
+    padding-bottom:80px
+}
+body .heroes-section{
+    text-align:center;
+    background-image:url(https://overwatch-a.akamaihd.net/img/scene/candy-895e91cbc198218dbe56fed67b590a7c37a8bc3ef29d4b8c2989edf2196cfdb4b6150e64cb6f57a01a26268ae764b4cc22da52168121287e68aa8a9891efd616.jpg);
+    background-position:top;
+    background-size:auto
+}
+body .prepurchase-section-desktop{
+    text-align:center;
+    position:relative;
+    border-top:1px solid hsla(0,0%,100%,.4)
+}
+body .cta-bar-container{
+    position:relative;
+    z-index:20;
+    display:none
+}
+body .cta-bar-container .button{
+    padding-top:0;
+    padding-bottom:0;
+    border-top:0;
+    border-bottom:0
+}
+body .cta-bar-container .center-in-button{
+    padding-top:12px;
+    padding-bottom:12px
+}
+body .cta-bar-container .cell{
+    width:50%;
+    display:table-cell;
+    height:100%
+}
+body .cta-bar-container .cell a{
+    height:100%
+}
+body .cta-bar-container .cta-bar{
+    display:table;
+    width:100%;
+    height:100%;
+    margin-top:5px
+}
+body .cta-bar-container .cta-bar .center-in-button-wrapper{
+    height:100%;
+    width:100%;
+    display:table
+}
+body .cta-bar-container .cta-bar .center-in-button{
+    display:table-cell;
+    vertical-align:middle;
+    height:100%
+}
+body .cta-bar-container .cta-bar .buy-cta,body .cta-bar-container .cta-bar .video-cta{
+    position:relative
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    body .cta-bar-container .cta-bar .buy-cta,body .cta-bar-container .cta-bar .video-cta{
+        font-size:2rem
+    }
+}
+body .cta-bar-container .cta-bar .buy-cta{
+    float:right;
+    padding-right:140px;
+    padding-left:20px;
+    display:inline-block;
+    width:auto
+}
+body .cta-bar-container .cta-bar .buy-cta .btn-art{
+    opacity:0
+}
+body .cta-bar-container .cta-bar .buy-cta{
+    opacity:1
+}
+.fade{
+    animation-name:fade;
+    animation-duration:2s
+}
+@keyframes fade{
+    from{
+        right:-20px;
+        opacity:0
+    }
+    to{
+        right:0;
+        opacity:1
+    }
+}
+body .cta-bar-container .cta-bar .video-cta{
+    float:left;
+    padding-left:180px;
+    padding-right:20px;
+    display:inline-block;
+    width:auto
+}
+body .cta-bar-container .cta-bar .video-cta .media-thumbnail{
+    border:0;
+    border-radius:0
+}
+body .cta-bar-container .cta-bar .video-cta .media-thumbnail>.wrap:after{
+    background-size:30% auto
+}
+body .cta-bar-container .cta-bar .video-cta .btn-art{
+    left:10px;
+    width:150px;
+    margin-top:0;
+    right:auto
+}
+body .cta-bar-container .cta-bar .btn-art{
+    position:absolute;
+    right:10px;
+    display:block;
+    top:50%;
+    -webkit-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    transform:translateY(-50%)
+}
+@media only screen and (min-width:768px){
+    body .cta-bar-container{
+        display:block
+    }
+}
+body .widowmaker-container{
+    padding-top:77%
+}
+@media only screen and (min-width:768px){
+    body .widowmaker-container{
+        padding-top:38%
+    }
+}
+body .fg-widowmaker-shoulder-rifle{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+    height:116%;
+    background-size:90% auto;
+    background-position:top
+}
+@media only screen and (max-width:767px){
+    body .fg-widowmaker-shoulder-rifle{
+        background-image:url(https://overwatch-a.akamaihd.net/img/pages/home/widowmaker-base-mobile-21177f4b1ca6935cf56c8d3fe42ba551e035976bc5c2c18c90a488ac698e9cd59a7932be7e06a3dba4d09fb234c4f8d65ef36a5176022295040669b8b35cd148.png)
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    body .fg-widowmaker-shoulder-rifle{
+        height:110%;
+        background-image:url(https://overwatch-a.akamaihd.net/img/pages/home/widowmaker-base-tablet-11255b2a5eec387ea5fe03d5ba8d803e9595d9233ac3fc80fde9f389b092c2ae0cb50b71cbad16a5b952b00c9888874a50c0593028ba226322ecf7ebe03ea3f6.png);
+        background-size:auto 100%
+    }
+}
+@media only screen and (min-width:992px){
+    body .fg-widowmaker-shoulder-rifle{
+        width:50%;
+        height:118%;
+        background-image:url(https://overwatch-a.akamaihd.net/img/pages/home/widowmaker-base-a2d08e6c665464c6b97c81e73c82508837ef27966d1ae309f8259526f18c1bbb164feda3df610e2176504bd41815319ee9e43351f644082d9e8b84417f917139.png);
+        background-size:100% auto
+    }
+}
+body .overwatch-game-container{
+    position:relative;
+    margin-top:-32%
+}
+@media only screen and (min-width:768px){
+    body .overwatch-game-container{
+        margin-top:-6%
+    }
+}
+@media only screen and (min-width:992px){
+    body .overwatch-game-container{
+        margin-top:3rem
+    }
+}
+@media only screen and (min-width:2300px){
+    body .overwatch-game-container{
+        margin-top:8rem
+    }
+}
+@media only screen and (min-width:2520px){
+    body .overwatch-game-container{
+        margin-top:13rem
+    }
+}
+body .overwatch-game{
+    vertical-align:top;
+    width:23%;
+    max-width:180px;
+    margin-top:1.5rem
+}
+body .overwatch-game-pc{
+    width:33%;
+    max-width:251px;
+    margin:0 1rem -2rem
+}
+@media only screen and (min-width:768px){
+    body .overwatch-game-pc{
+        margin-left:3rem;
+        margin-right:3rem
+    }
+}
+@media screen and (min-width:400px) and (max-width:767px){
+    body .buy-cta,body .intro-trailer{
+        width:100%;
+        max-width:310px
+    }
+}
+body .bg-mountain-city{
+    min-height:14rem;
+    background-size:cover;
+    background-position:80% top;
+    background-image:url(https://overwatch-a.akamaihd.net/img/pages/home/dorado-tablet-ca70d2eac24ee305b75722198a4bb2993007b4003c59f2f39647f49bcf1f1f395d5e38eec1c8e80ce1826a040e875d8a1c1b5f755c0e5932c3710bf3ed5ac802.jpg)
+}
+@media only screen and (min-width:992px){
+    body .bg-mountain-city{
+        min-height:20rem;
+        background-position:center 16%;
+        background-image:url(https://overwatch-a.akamaihd.net/img/pages/home/dorado-desktop-2cfea7233598311850e3f484a91e1d48df48496ff062b0b639595bfa217c0ce1129464b6b3e3107c165b24e99a794aa181244d4b440507e9e02a5abba3f08583.jpg)
+    }
+}
+@media only screen and (min-width:1300px){
+    body .bg-mountain-city{
+        background-attachment:fixed;
+        min-height:33.5rem
+    }
+}
+body .bottom-bg{
+    background:url(https://overwatch-a.akamaihd.net/img/pages/home/game-bg-mobile-9b5ab1105cb78274fdc8b01c6d66ca7005d1669c773cf4ec1835cee9a954839b98531f4ee162c016132d8610fd03d95634d6b5e30a92ea7a87ab6c30582732dd.png) 0 bottom
+}
+@media only screen and (min-width:768px){
+    body .bottom-bg{
+        background:url(https://overwatch-a.akamaihd.net/img/pages/home/game-bg-tablet-923be442d4c671786b4a30d92481ddc28252eda66b0be3b4f15b96412a06fea13d66e3bb7ea9de54058253e7d1df4376da08586341045707b97053bb96a84bcb.png) no-repeat
+    }
+}
+body .hero-portrait-group{
+    max-width:64.6rem;
+    padding:0 1.2rem
+}
+@media only screen and (min-width:768px){
+    body .hero-portrait-group{
+        padding:0
+    }
+}
+body .spotlight,body .spotlight>.header,body .spotlight>.holder{
+    position:relative
+}
+@media only screen and (min-width:992px){
+    body .spotlight:before{
+        top:59%;
+        padding-top:28.07%;
+        background-image:url(https://overwatch-a.akamaihd.net/img/pages/home/glow-030cacba3775cada54d21deaecca8aa7867ea827f78b371979da93f718b43de5da1d11fc70f2e56b239ec584dad0dae1818bc8a836e223aecf7b2fc6910ed993.png)
+    }
+}
+@media only screen and (min-width:992px){
+    body .spotlight:before,body .spotlight>.header:before{
+        content:'';
+        position:absolute;
+        left:0;
+        right:0;
+        background-size:cover
+    }
+    body .spotlight>.header:before{
+        top:87%;
+        padding-top:10.4%;
+        background-image:url(https://overwatch-a.akamaihd.net/img/pages/home/line-glow-5da04a031d5f67937a1f8c3c777a4f70931aaa42b259d6c71c2b58842baa165efeccd7e3c18370b7637b11b44b6cc2e9a51550b8e93e8c9f6b6428596d10d564.png)
+    }
+}
+body .spotlight>.caption{
+    min-height:7em
+}
+@media only screen and (min-width:1300px){
+    body .spotlight>.caption{
+        min-height:5em
+    }
+}
+body .mobile-cta{
+    text-align:center
+}
+@media only screen and (min-width:768px){
+    body .mobile-cta{
+        display:none
+    }
+}
+body .mobile-cta .buy-cta{
+    margin:25px auto 0
+}
+body .mobile-cta .intro-trailer{
+    margin:35px auto;
+    display:block;
+    max-width:none
+}
+body .cta-bar{
+    padding:0 .8333%
+}
+#find-hero2:hover,#find-hero:hover{
+    margin-top:20px;
+    background:linear-gradient(107deg,#ff8f05 11.1%,#f58700 95.3%);
+    border-width:0;
+    opacity:90%;
+    box-shadow:1.5px 1.5px rgba(9,7,0,.3)
+}
+#find-hero,#find-hero2{
+    margin-top:20px;
+    background:linear-gradient(107deg,#ff8f05 11.1%,#f58700 95.3%);
+    border-width:0;
+    opacity:100%
+}
