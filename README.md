@@ -13,7 +13,7 @@ The Overwatch landing page is the first landing page project that I ever created
 - Find me a hero quiz accessible through the button at the bottom of the page, made with a combination of JS prompt and alerts.
 - Responsiveness. Works on any screen.
 
-# <a href="https://astonishing-pithivier-fc247a.netlify.app/" target="_blank">See it live</a>
+# <a href="http://overwatch.iamalwayshome.com/" target="_blank">See it live</a>
 
 ![screen1](https://i.ibb.co/LrNHm8k/Screenshot-from-2023-01-08-13-17-24.png "over_website_page1")
 ![screen2](https://i.ibb.co/pWthR44/Screenshot-from-2023-01-08-13-19-12.png "over_website_page2")
